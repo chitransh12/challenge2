@@ -1,2 +1,5 @@
 # cov-tracker
- made using html css java script
+ A basic website on covid-19 which has been implemented with the help of :
+ HTML
+ CSS
+ JAVASCRIPT
