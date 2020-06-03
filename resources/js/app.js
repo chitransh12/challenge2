@@ -131,3 +131,10 @@ function axesLinearChart(){
 	});
 }
 
+const monthsNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+function formatDate(dateString){
+	 date = new Date(dateString);
+
+	return `${date.getDate()} ${monthsNames[date.getMonth()]}`;
+}
